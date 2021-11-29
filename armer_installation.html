@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Armer Installation &mdash; Armer Manipulator Control Interface  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Supported Arms" href="supported_arms.html" />
+    <link rel="prev" title="Introduction" href="welcome.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2c3e50" >
+            <a href="index.html" class="icon icon-home"> Armer Manipulator Control Interface
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="welcome.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Armer Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quickstart-installation">Quickstart Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="supported_arms.html">Supported Arms</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="set_joint_velocity.html">Setting Joint Velocites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_joint_position.html">Setting Joint Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_cartesian_velocity.html">Setting Cartesian Velocites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_cartesian_position.html">Setting Cartesian Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guarded_motion.html">Guarded Motion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use_named_poses.html">Using Named Poses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="creating_a_hardware_package.html">Creating a Hardware Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create_an_RTB_model.html">Creating a Robotics Toolbox Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom_robot.html">Creating A Custom Robot</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Code:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="API.html">Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2c3e50" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Armer Manipulator Control Interface</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Armer Installation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/armer_installation.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="armer-installation">
+<h1>Armer Installation<a class="headerlink" href="#armer-installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.python.org/">Python</a> &gt;= 3.6</p></li>
+<li><p><a class="reference external" href="http://wiki.ros.org/noetic">ROS Noetic</a></p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/roboticstoolbox-python/">Robotics Toolbox for Python</a></p></li>
+<li><p><a class="reference external" href="https://qcr.github.io/armer/add_qcr_repos.html">QCR repos</a></p></li>
+</ul>
+</div>
+<div class="section" id="quickstart-installation">
+<h2>Quickstart Installation<a class="headerlink" href="#quickstart-installation" title="Permalink to this headline">¶</a></h2>
+<p>Copy and paste the following code snippet into a terminal to create a new catkin workspace and install the Armer drivers to it. Note this script will also add the workspace to be sourced every time a bash terminal is opened.</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt install python3-pip
+mkdir -p ~/armer_ws/src <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/armer_ws/src
+git clone https://github.com/qcr/armer.git <span class="o">&amp;&amp;</span> git clone https://github.com/qcr/armer_msgs
+<span class="nb">cd</span> .. <span class="o">&amp;&amp;</span> rosdep install --from-paths src --ignore-src -r -y
+catkin_make
+<span class="nb">echo</span> <span class="s2">&quot;source ~/armer_ws/devel/setup.bash&quot;</span> &gt;&gt; ~/.bashrc
+<span class="nb">source</span> ~/armer_ws/devel/setup.bash
+<span class="nb">echo</span> <span class="s2">&quot;Installation complete!&quot;</span>
+</pre></div>
+</div>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the <code class="docutils literal notranslate"><span class="pre">rosdep</span></code> command is failing to find dependencies, make sure the QCR Robotic Vision repos have been added. See <a class="reference external" href="add_qcr_repos.html">Adding QCR Robotic Vision Repos</a></p>
+</div>
+<p>If the script has completed with no errors, continue on to <a class="reference external" href="supported_arms.html">Supported Arms</a>.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="welcome.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="supported_arms.html" class="btn btn-neutral float-right" title="Supported Arms" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Gavin Suddrey.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
