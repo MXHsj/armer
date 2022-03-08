@@ -665,7 +665,7 @@ class ROSRobot(rtb.ERobot):
 
         # Move time correction [currently un-used but requires optimisation]
         # Correction to account for error in curved motion
-        move_time = move_time * 1
+        move_time = move_time * 1.0
 
         # Obtain minimum jerk velocity profile of joints based on estimated end effector move time
         min_jerk_pos, min_jerk_vel = mjtg(self.q, qd, frequency, move_time)
